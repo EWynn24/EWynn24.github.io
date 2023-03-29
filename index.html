@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Website Design Using HTML And CSS</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <h1>Welcome to the booking page!</h1>
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class = "center">
+                    <ul>
+    
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Start Date</button>
+                           
+                            <div id="mydropdown" class="dropdown-content">
+                              <a href="#"onclick="changeText('Link 1')">Link 1</a>
+                              <a href="#"onclick="changeText('Link 2')">Link 2</a>
+                              <a href="#"onclick="changeText('Link 3')">Link 3</a>
+                            </div>
+                          </div>
+                          &nbsp;&nbsp;
+                          <div class="dropdownend">
+                            <button onclick="myFunctionEnd()" class="dropbtnend">End Date</button>
+                            <div id="mydropdownend" class="dropdown-contentend">
+                              <a href="#"onclick="changeText2('Link 1')">Link 1</a>
+                              <a href="#"onclick="changeText2('Link 2')">Link 2</a>
+                              <a href="#"onclick="changeText2('Link 3')">Link 3</a>
+                            </div>
+                          </div>
+                          &nbsp;&nbsp;
+                          <div class="dropdownArea">
+                            <button class="dropbtnArea">Area</button>
+                            <div class="dropdown-contentArea">
+                              <a href="#"onclick="changeText3('New York')">New York</a>
+                              <a href="#"onclick="changeText3('Toronto')">Toronto</a>
+                              <a href="#"onclick="changeText3('Los Angeles')">Los Angeles</a>
+                              <a href="#"onclick="changeText3('Washington D.C')">Washington D.C</a>
+                              <a href="#"onclick="changeText3('Ottawa')">Ottawa</a>
+                              <a href="#"onclick="changeText3('Mexico City')">Mexico City</a>
+                            </div>
+                         </div>
+                         &nbsp;&nbsp;
+                          <div class="dropdownHotelChain">
+                            <button class="dropbtnHotelChain">Hotel Chain</button>
+                            <div class="dropdown-contentHotelChain">
+                              <a href="#"onclick="changeText4('Hilton')">Hilton</a>
+                              <a href="#"onclick="changeText4('Holiday Inn')">Holiday Inn</a>
+                              <a href="#"onclick="changeText4('Marriott')">Marriott</a>
+                              <a href="#"onclick="changeText4('Best Western')">Best Western</a>
+                              <a href="#"onclick="changeText4('Wyndham')">Wyndham</a>
+                            </div>
+                          </div>
+                          &nbsp;&nbsp;
+                           <div class="dropdownCapacity">
+                            <button class="dropbtnCapacity">Room Capacity</button>
+                            <div class="dropdown-contentCapacity">
+                              <a href="#"onclick="changeText5('1')">1</a>
+                              <a href="#"onclick="changeText5('2')">2</a>
+                              <a href="#"onclick="changeText5('3')">3</a>
+                              <a href="#"onclick="changeText5('4')">4</a>
+                              <a href="#"onclick="changeText5('5')">5</a>
+                              <a href="#"onclick="changeText5('6')">6</a>
+                              <a href="#"onclick="changeText5('7')">7</a>
+                              <a href="#"onclick="changeText5('8')">8</a>
+                              <a href="#"onclick="changeText5('9')">9</a>
+                            </div>
+                          </div>
+                          
+                    </ul>
+                </div>
+                <div class="container">
+                <button class="submitButton" onclick="alert('Hello world!')">Submit</button>
+            </div>
+            </nav>
+        </div>
+    </body>
+    <script src="utilities.js"></script>
+</html>

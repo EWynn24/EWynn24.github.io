@@ -1,0 +1,196 @@
+ul li{
+    display:inline-block;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    border: 3px solid rgb(32, 108, 223);
+    padding: 10px;
+  }
+  .dropbtn {
+    background-color: #9525e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #4d045f;}
+
+.dropbtnend {
+    background-color: #9525e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdownend {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contentend {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentend a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-contentend a:hover {background-color: #ddd;}
+
+.dropdownend:hover .dropdown-contentend {display: block;}
+
+.dropdownend:hover .dropbtnend {background-color: #4d045f;}
+
+.dropbtnArea {
+    background-color: #9525e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdownArea {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contentArea {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentArea a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-contentArea a:hover {background-color: #ddd;}
+
+.dropdownArea:hover .dropdown-contentArea {display: block;}
+
+.dropdownArea:hover .dropbtnArea {background-color: #4d045f;}
+
+.dropbtnHotelChain {
+    background-color: #9525e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdownHotelChain {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contentHotelChain {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentHotelChain a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-contentHotelChain a:hover {background-color: #ddd;}
+
+.dropdownHotelChain:hover .dropdown-contentHotelChain {display: block;}
+
+.dropdownHotelChain:hover .dropbtnHotelChain {background-color: #4d045f;}
+
+.dropbtnCapacity {
+    background-color: #9525e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdownCapacity {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contentCapacity {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentCapacity a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-contentCapacity a:hover {background-color: #ddd;}
+
+.dropdownCapacity:hover .dropdown-contentCapacity {display: block;}
+
+.dropdownCapacity:hover .dropbtnCapacity {background-color: #4d045f;}
+
+.container {
+   
+    color: rgb(184, 19, 19);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+ 
+    text-align: center;  
+   
+ 
+
+  }
+.sumbitButton{
+  color: beige;
+  
+  }
